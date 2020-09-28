@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="11dp"
+    android:layout_marginRight="11dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="7dp"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="country"
+            android:textSize="15sp"
+            android:textColor="#cc6699"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/NewConfirmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="newConfirmed"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/TotalConfirmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="totalConfirmed"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/NewDeaths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="newDeaths"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/TotalDeaths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="totalDeaths"
+            android:textColor="#000" />
+        <TextView
+            android:id="@+id/active"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="newRecovered"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/TotalRecovered"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="totalRecovered"
+            android:textColor="#000" />
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
